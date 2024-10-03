@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--DO NOT ALTER. This is the -->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://www.linkedin.com/in/adric-smith-011ba1208/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://www.linkedin.com/in/adric-smith-011ba1208/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="geospatial-data-analysis.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Adric Smith</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--INTRODUCTION AND ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		Welcome to Adric Smith's Geoportfolio! This website is designed to show off
+		my wonderful projects and demonstate my capabilities in a professional and accademic capacity.
+		<p>
+		A brief introduction about myself: Hi im Adric Smith, born and raised in Melbourne, Australia in 2002, I am currently in my fourth year of a  
+		Bachelor of Science (Geospatial Science) (Honours) course. I have a diverse set of interestes within the geospatial field, but recently find myself focused more on 
+		satellite based remote sensing data and arial imagery, with a secondary interest in cartography and mapping. 
+		In my accademic career i have worked on many projects throughout many domains within the geospatial field. Some of these include; Fire vulnerability mapping, suitability analysis,
+		mapping potential inundation, and satellite image based land classification. 
+		</p>
+		<p>
+		My own personal hobbies include reading, map making, TTRPGs, and videogames.
+		</p>	
+	<img src="self-portrait.jpg" height="500px" width="auto" class="image"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	<!--END OF INTRODUCTION AND ABOUT SECTION-->
+
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cartography</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs"> <!-- #ID# #AP TEXT# -->
+		Cartography consists of creating maps using spatial concepts to ensure ease of access and consideration for the target audience of the final product. 
+		The data obtained for this course was collected from publicly availible sources such as the ABS (Australian Bureau of Statistics). 
+		The primary product of this course was the construction of a map from scratch, using ARCGIS and Adobe Illustrator to modify and create 
+		a map that suits a freely chosen purpose and audience. Further maps were made for the practical sections of this course and are listed below:
+		<ul> <!--Bullet points below-->
+			<li>Map 1: A map of melbournes laneways with a specific focus on rooftop bars.</li>
+			<li>Map 2: Itallian Herritage comparrison between 2021 and 2016.</li>
+			<li>Final Cartography Project: Mapping Wilson's Prom in a Breath of the wild style.</li>
+		</ul> <!--End of bullet points-->
+		<p>
+			Below are the three maps that I have created as part of my course:
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Mapping Rooftop Bars in Melbourne CBD</h3></div> <!--Assignment name-->
+	<img src="Academic-Gallery/Rooftop Bars.png" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Itallian Herritage comparrison between 2021 and 2016.</h3></div> <!--Assignment name-->
+	<img src="Academic-Gallery/Demographic Mapping.png" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Mapping Wilson's Prom in a Breath of the wild style.</h3></div> <!--Assignment name-->
+	<img src="Academic-Gallery/Cartofinal.png" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--END OF SUBJECT 1-->
+
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Applied Geospatial Techniques (AGT)</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs">
+		Applied Geospatial Techniques (AGT) is a hands on practical subject done in both geospatial science and surveying. The subject uses the
+		knowledge from these three different disciplines to create a series of products:
+		<ul>
+			<li>Surveying</li>
+			<li>Geographical Information Systems (GIS)</li>
+			<li>Cartography</li>
+		</ul>
+		<p>
+		For the 2021 version of this course, the assignment was about the proposal of creating an amphitheatre at Deep Rock Oval located at Yarra Bend Park.
+		The main deliverables of the subject consisted of producing:
+		<ul>
+			<li>Topographic survey map of Deep Rock Oval</li>
+			<li>3D generated scene of the proposed amphitheatre</li>
+			<li>Amphitheatre and Pathway plan of the proposed site</li>
+			<li>Final map of the amphitheatre proposal</li>
+		</ul>
+		</p>
+		<p>
+			The topographic survey map would have been created using surveying data obtained on the field using a total station at Deep Rock Oval, Yarra Bend Park. However, 
+			because of COVID19 only a visit to the site was viable, with the data being provided to us and the surveying experience transfered to another subject.
+			The topographic map was made using LISCAD.SEE and LISCAD.CAD. The 3D generated scene was created using the ArcGIS suite while the raw data was
+			modified in ArcMap. The proposed pathway was created using ArcMap by using the GIS program to generate the pathway based on slope angle and the amphitheatre
+			based on z-values. The final map used Adobe Illustrator to create the map along with ArcMap for exporting the 2D amphitheathre image and for 
+			exporting the image of the 3D scene.
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Topographic survey map (Surveying component)</h3></div>
+	<img src="Academic-Gallery/SiteCAD.png" width="auto" height="700px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>3D Amphitheatre and pathway plan (GIS component)</h3></div>
+	<img src="Academic-Gallery/3D.png" width="40%" height="auto" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Final map of proposal</h3></div>
+	<img src="Academic-Gallery/Finalmap.png" width="auto" height="1000px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	<!--SUBJECT 3-->
+
+	<div class="bar"><h2>Spatial Infomation Science Analytics </h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs">
+		Spatial Information Science Analytics is a difficult, content ritch, subject that was difficult to master. Undertaking this course was a trial of many late 
+		nights, and hours dedicated to understanding complex spatial methods. There were many practical aspects of this course, using ARCMAP to make different map products 
+		utilising different general geospatial topics including:
+		<ul>
+			<li>Spatial Interpolation</li>
+			<li>Spatial Pattern Analysis</li>
+			<li>Spatial Regression Analysis</li>
+		</ul>
+		<p>
+		In 2021, this course had a major focus on the completion of a full mapping project from start to finish and included a full project proposal and various other 
+		planning documents designed to support the final product of this project. For this project I decided to use my newfound knowledge of Spatial interpolation to
+		generate a map of fire vulerable areas in the state of victoria using weather station data as a basis of these maps. This was further augmented through the use 
+		of other data sources such as a map of forested area and various other metrics. The following maps are the product of that project and the classes practicals:
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Interpolation Map of Rainfall Derrived From Weather Station Data</h3></div>
+	<img src="Academic-Gallery/Lab1.png" width="auto" height="700px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Hotspot Analysis of Naplan Results in the Greater Melbourne Area</h3></div>
+	<img src="Academic-Gallery/Lab2.png" width="40%" height="auto" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Heat and Rainfall Maps for Victoria in the Summer Period</h3></div>
+	<img src="Academic-Gallery/Wet.png" width="auto" height="600px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<img src="Academic-Gallery/Heat.png" width="auto" height="600px" class="image">
+	<div class="bar"><h3>Final Fire Vulnerability Map for Victoria in the Summer Period</h3></div>
+	<img src="Academic-Gallery/Fire.png" width="auto" height="600px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 3-->
+	
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="paragraphs">
+		This page will briefly cover all my work experience (as of October 2024) within the geospatial science industry. I have currently not been employed within the 
+		industry and as such this section is still to be expanded. Who knows maybe you will be the first one here!
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>This Could Be You!</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<div class="job-overview">
+		This could be your company here with a woinderful description of what i do/did there!
+		</p>
+	</div>
+	<!--END OF COMPANY 1-->
+
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/GIS.png" class="iconimages"></td>
+				<td>GIS</td>
+                <td><img src="Icons/QGIS-icon.png" class="iconimages"></td>
+				<td>QGIS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cartography-icon.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+                <td><img src="Icons/adobe-illustrator.png" class="iconimages"></td>
+				<td>Adobe Illustrator</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/rs-satellite-icon.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="Icons/drone-icon.png" class="iconimages"></td>
+				<td>Photogrammetry and Aerial Imagery</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/web-design.png" class="iconimages"></td>
+				<td>Web Design: HTML & CSS</td>
+                <td><img src="Icons/webgis.png" class="iconimages"></td>
+				<td>Web GIS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/python-icon.png" class="iconimages"></td>
+				<td>Python Programming</td>
+                <td><img src="Icons/sql.png" class="iconimages"></td>
+				<td>Cloud Based Database Management</td>
+            </tr>
+        </table>
+    </div>
+	<!--END OF Skills and Proficiencies table-->
+
+
+	<!--CREDITS AND ATTRIBUTIONS-->
+	<div class="pagetitle" id="credits"> <!-- #ID# #CREDITS#-->
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="paragraphs">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cartography 2 (GEOM2079)</li>
+            <li>Applied Geospatial Techniques (GEOM2083)</li>
+			<li>SIS Analytics (GEOM1057)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nicholas Lee</li>
+            <li>Shinjita Das</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://stackoverflow.com/">Stack Overflow</a></li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Stockio - Flaticon</a></th>
+            <th><img src="Icons/sql.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by monkik - Flaticon</a></th>
+            <th><img src="Icons/cartography-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe illustrator icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/adobe-illustrator.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/python-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/web-design.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/web-site" title="web site icons">Web site icons created by wanicon - Flaticon</a></th>
+            <th><img src="Icons/webgis.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Smashicons - Flaticon</a></th>
+            <th><img src="Icons/drone-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+	<!--END OF CREDITS AND ATTRIBUTIONS-->
+
+
+
+	<!--FOOTER-->
+	<div class="footer"> 
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Adric Smith with template provided by Shinjita Das and Nicholas Lee.
+		</div>
+		<table class="contacttable"> <!-- #ID# #CONTACT# -->
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>----This Could Be You!---</th>
+				<th>
+					Email Adric Smith here:
+					<br><a href = "mailto:Adric.i.c.Smith@gmail.com">Adric.i.c.Smith@gmail.com</a>
+				</th>
+				<th>Mobile:
+					<br>0401240283
+				</th>
+			</tr>
+		</table>
+	</div>
+	<!--END OF FOOTER-->
+
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
